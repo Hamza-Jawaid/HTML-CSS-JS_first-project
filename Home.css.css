@@ -1,0 +1,254 @@
+
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style-type:none;
+	box-sizing:border-box;}
+	
+		section{
+			    background:url(../Pictures/shutt.jpg);
+				background-size:cover;
+				min-height:calc(80vh + 40px);}
+	
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------NAVBAR-------------------------------------------------------*/
+	
+	.nav{
+		position:fixed;
+		z-index:10;
+		font-family:Arial Nova Light;
+		background:rgba(0,0,0,0.6);
+		box-shadow:inset 0px -1px 30px 0px rgba(0,0,0,1),0px 2px 10px 0px rgba(0,0,0,1);
+		height:80px;
+		width:100%;}
+		
+		label.logo{
+			width:34.8%;
+			color:#fff;
+			font-size:35px;
+			line-height:80px;
+			padding:0 100px;
+			font-weight:bold;
+			position:absolute;}
+			
+			.nav .ul{
+				float:right;
+				margin-right:20px;}
+				
+				.nav .ul li{
+					display:inline-block;
+					line-height:80px;
+					margin:0 5px;}
+					
+					.nav .ul li a{
+						color:#fff;
+						font-size:17px;
+						text-transform:uppercase;
+						padding:7px 13px;
+						border-radius:3px;}
+	 
+						a.active,.a:hover{
+							background:#1b9bff;
+							transition:.5s;}
+	
+
+							.checkbtn{
+								font-size:30px;
+								color:#fff;
+								float:right;
+								line-height:80px;
+								margin-right:40px;
+								cursor:pointer;
+								display:none;}
+								
+								#check{
+									display:none;}
+									
+									@media (max-width:969px){  						
+										label.logo{
+											font-size:30px;
+											padding-left:50px;}
+											.nav .ul li a{
+												font-size:16px;}}
+												
+												@media (max-width:969px){
+													.checkbtn{
+														display:block;}
+														
+														.ul{
+															z-index:1000;
+															position:fixed;
+															width:100%;
+															height:100vh;
+															background:#036;
+															top:80px;
+															left:-100%;
+															text-align:center;
+															transition:all .5s;}
+															
+															.nav .ul li{
+																display:block;
+																margin:50px 0;
+																line-height:30px;}
+																
+																.nav .ul li a{
+																	font-size:20px;}
+																	
+																	a:hover,a.active{
+																		background:none;
+																		color:#06F;}
+																		
+																		 #check:checked~.ul{
+																			left:0;}}
+																			
+	/*-----------------------------------------------------------------------------------------------------------------*/
+	/*---------------------------------------------------FOOTER--------------------------------------------------------------*/
+		
+	 .Footer-h-w{
+		display:flex;
+		min-height:0vh;
+		text-align:center;
+		align-items:flex-end;
+		justify-content: flex-end;}
+
+
+		  .footer{
+		  padding:20px 50px;
+		  position:relative;
+		  min-height:300px;
+		  width:100%;
+		  background:rgba(59,135,222,1);
+		  display:flex;
+		  justify-content:center;
+		  align-items:center;
+		  flex-direction:column;
+		 }
+		 
+		 .footer .social_icon,
+		 .footer .menu{
+			 position:relative;
+			 display:flex;
+			 justify-content:center;
+			 align-items:center;
+			 margin:10px 0;
+			 flex-wrap:wrap;}
+			 
+			 .footer .social_icon li,
+			 .footer .menu li {
+				 list-style:none;}
+				 
+				  .footer .social_icon li a
+				                        {
+					  font-size:2em;
+					  color:rgba(255,255,255,1);
+					  margin:0 10px;
+					  display:inline-block;
+					  transition:0.5s;}
+					  
+					   .footer .social_icon li a:hover{
+						   transform:translateY(-10px);}
+						   
+						   
+						   .footer .menu li a
+				                        {
+					  font-size:0.9em;
+					  color:rgba(255,255,255,1);
+					  margin:0 10px;
+					  display:inline-block;
+					  text-decoration:none;
+					  opacity:0.75;
+					  text-transform:uppercase;
+					  }
+					  
+					  
+					   .footer .menu li a:hover{
+						   opacity:1;}
+						   
+						   .footer .p{
+							   color:#fff;
+							   text-align:center;
+							   margin-top:15px;
+							   margin-bottom:10px;
+							   font-size:0.9em;}
+							   
+							   .footer .wave{
+								   position:absolute;
+								   top:-80px;
+								   left:0;
+								   width:100%;
+								   height:90px;
+								   background:url(wave.png);
+								   background-size:1000px 100px;}
+								   
+								   .footer .wave#wave1{
+									   z-index:1;
+									   opacity:1;
+									   bottom:0;
+									   animation:animateWave 9s linear infinite;}
+									   
+									      .footer .wave#wave2{
+									   z-index:999;
+									   opacity:0.5;
+									   bottom:10px;
+									   animation:animateWave_02 9s linear infinite;}
+									   
+									   
+									   
+									    .footer .wave#wave3{
+									   z-index:1;
+									   opacity:0.2;
+									   bottom:15px;
+									   animation:animateWave 5s linear infinite;}
+									   
+									      .footer .wave#wave4{
+									   z-index:999;
+									   opacity:0.7;
+									   bottom:10px;
+									   animation:animateWave_02 5s linear infinite;}
+									   
+									   @keyframes animateWave{
+										   0%{background-position-x:1000px;}
+										   100%{background-position-x:0px;}}
+										   
+										    @keyframes animateWave_02{
+										   0%{background-position-x:0px;}
+										   100%{background-position-x:1000px;}}																	
+																			
+																		
+												
+			
+		/*----------------------------------------SECTION BOX-----------------------------------*/
+	
+	
+	section .Box{
+		display:flex;
+		position:relative;
+		height:90vh;
+		width:100%;
+		font-family:Arial Nova Light;
+		align-items:center;
+		justify-content:center;
+		text-align:center;}
+		
+		.Box .child_box{
+			border-top:0.5px solid rgba(255,255,255,0.5);
+		  border-radius:20px;
+		  box-shadow:-5px 10px 20px 0px rgba(0,0,0,0.5),
+		  inset 0px 0px 300px 0px rgba(255,255,255,0.5);
+		  padding:0px 0px;
+		  position:relative;
+		  height:30vh;
+		  border:2x solid;
+		  width:50%;
+		 /* background: url(../Pictures/air-home-page-meta.jpg);*/
+		  background-size:cover;
+		  display:flex;
+		  justify-content:center;
+		  align-items:center;
+		  flex-direction:column; 
+		  }
+.Box .child_box small{
+	letter-spacing:10px;}
+
+	

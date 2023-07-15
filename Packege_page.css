@@ -1,0 +1,497 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+	}
+	
+	.building{
+		font-family:Arial;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		min-height:100vh;
+		position:relative;
+		background-size:cover;
+		}
+				
+			.building::after{
+			content:'';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width:100%;
+			height:100%;
+			background:rgba(0,102,153,0.5);/*linear-gradient(#06F,#900);*/
+			clip-path:circle(20% at 10% 10%);
+			}
+			
+/*
+-----------------------------------------
+1rst Row Of CARDs Namely:(.container_ii)     {start:
+-----------------------------------------
+*/						
+
+			
+			
+			
+			
+			
+			
+		.container{
+			
+			
+			margin:200px 0px 0px 12%;
+				position:absolute;
+				display:flex;
+				justify-content:center;
+		align-items:center;
+			     max-width:100%;
+				 z-index:1;}
+
+			   /*{
+				margin:-139vh 0px 0px 0px;                    
+				border:5px solid;
+				position:absolute;
+				display:flex;
+			     max-width:100%;
+				 z-index:1;}*/
+
+
+
+.container .card{
+	position:relative;
+	width:220px;
+	word-wrap:normal;
+	margin:30px;
+	height:400px;
+	box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+	border-radius:15px;
+	background-color:rgba(255,255,255,0.1);
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	border-top:1px solid rgba(255,255,255,0.3);
+	border-left:1px solid rgba(255,255,255,0.3);
+	backdrop-filter: blur(5px);
+}
+
+.container .card .content{
+	padding:20px;
+	transform:translateY(100px);
+	opacity: 0.7;
+	text-align:left;
+	transition:0.5s;}
+	
+	/*.container .card:hover .content{
+		transform:translateY(0px);
+		opacity:1;}*/
+	
+	.container .card .content h2{
+		position:absolute;
+		top:-110px;
+		right:10px;
+		font-size:2.5em;
+		color:rgba(255,255,255,0.2);
+		font-family:Bradley Hand ITC;
+		pointer-events:none;}
+		
+		.container .card .content h3{
+			font-size:1.8em;
+			color:rgba(255,255,255,1);
+			z-index:5;}
+			
+				.container .card .content p{
+					font-size:1em;
+					color:rgba(0,0,0,1);
+					font-weight:300;}
+					
+						.container .card .content a{
+							position:relative;
+							display:inline-block;
+							padding:8px 20px;
+							margin-top:15px;
+							background-attachment:#fff;
+							color:#000;
+							border-radius:20px;
+							text-decoration:none;
+							font-weight:500;
+							box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+							
+							
+/*
+-----------------------------------------
+End Of 1nd Row Of CARDs!                         END;}
+-----------------------------------------
+*/						
+					
+
+
+							
+							
+/*
+-----------------------------------------
+{start: of 2nd Row                      2nd Row Of CARDs Namely:(.container_ii) 
+-----------------------------------------
+*/						
+							
+							
+							
+							.container_ii{
+								
+				margin:640px 0px 0px 12%;
+				position:absolute;
+				display:flex;
+				justify-content:center;
+		align-items:center;
+			     max-width:100%;
+				 z-index:1;}
+
+
+.container_ii .card{
+	position:relative;
+	width:220px;
+	word-wrap:normal;
+	margin:30px;
+	height:400px;
+	box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+	border-radius:15px;
+	background-color:rgba(255,255,255,0.1);
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	border-top:1px solid rgba(255,255,255,0.3);
+	border-left:1px solid rgba(255,255,255,0.3);
+	backdrop-filter: blur(5px);
+}
+
+.container_ii .card .content{
+	padding:20px;
+	transform:translateY(100px);
+	opacity: 0.7;
+	
+	text-align:left;
+	transition:0.5s;}
+	
+	/*.container .card:hover .content{
+		transform:translateY(0px);
+		opacity:1;}*/
+	
+	.container_ii .card .content h2{
+		position:absolute;
+		top:-100px;
+		right:10px;
+	font-size:2.5em;
+		color:rgba(255,255,255,0.08);
+		pointer-events:none;}
+		
+		.container_ii .card .content h3{
+			font-size:1.8em;
+			color:rgba(255,255,255,1);
+			z-index:5;}
+			
+				.container_ii .card .content p{
+					font-size:1em;
+                    color:rgba(0,0,0,1);
+					font-weight:300;}
+					
+						.container_ii .card .content a{
+							position:relative;
+							display:inline-block;
+							padding:8px 20px;
+							margin-top:15px;
+							background-attachment:#fff;
+							color:#000;
+							border-radius:20px;
+							text-decoration:none;
+							font-weight:500;
+							box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+							
+							
+							
+							
+							
+							
+/*							
+-----------------------------------------
+3ird Row Of CARDs Namely:(.container_iii)      {start:
+-----------------------------------------
+*/						
+							
+							
+							
+							.container_iii{
+				margin:1080px 0px 0px 12%;
+				position:absolute;
+				display:flex;
+				justify-content:center;
+				display:flex;
+			     max-width:100%;
+				 z-index:1;}
+
+
+.container_iii .card{
+	position:relative;
+	width:220px;
+	word-wrap:normal;
+	margin:30px;
+	height:400px;
+	box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+	border-radius:15px;
+	background-color:rgba(255,255,255,0.1);
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	border-top:1px solid rgba(255,255,255,0.3);
+	border-left:1px solid rgba(255,255,255,0.3);
+	backdrop-filter: blur(5px);
+}
+
+.container_iii .card .content{
+	padding:20px;
+	transform:translateY(100px);
+	opacity: 0.7;
+	text-align:left;
+	transition:0.5s;}
+	
+	/*.container .card:hover .content{
+		transform:translateY(0px);
+		opacity:1;}*/
+	
+	.container_iii .card .content h2{
+		position:absolute;
+		top:-100px;
+		right:10px;
+	font-size:2.5em;
+		color:rgba(255,255,255,0.1);
+		pointer-events:none;}
+		
+		.container_iii .card .content h3{
+			font-size:1.8em;
+			color:rgba(255,255,255,1);
+			z-index:5;}
+			
+				.container_iii .card .content p{
+					font-size:1em;
+					color:rgba(0,0,0,1);
+					font-weight:300;}
+					
+						.container_iii .card .content a{
+							position:relative;
+							display:inline-block;
+							padding:8px 20px;
+							margin-top:15px;
+							background-attachment:#fff;
+							color:#000;
+							border-radius:20px;
+							text-decoration:none;
+							font-weight:500;
+							box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+							
+/*
+-----------------------------------------
+End Of 3rd Row Of CARDs!                         END;}
+-----------------------------------------
+*/
+
+
+
+							
+/*							
+-----------------------------------------         
+4orth Row Of CARDs Namely:(.container_iv)        {start:
+-----------------------------------------
+*/						
+							
+							
+							
+							.container_iv{
+				margin:1590px 0px 0px 12%;
+	            position:absolute;
+				display:flex;
+				justify-content:center;
+			     max-width:100%;
+				 z-index:1;}
+
+
+.container_iv .card{
+	position:relative;
+	width:220px;
+	word-wrap:normal;
+	margin:30px;
+	height:400px;
+	box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+	border-radius:15px;
+	background-color:rgba(0,0,0,0.5);
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	border-top:1px solid rgba(255,255,255,0.3);
+	border-left:1px solid rgba(255,255,255,0.3);
+	backdrop-filter: blur(5px);
+}
+
+.container_iv .card .content{
+	padding:20px;
+	transform:translateY(100px);
+	opacity: 1.1;
+	text-align:left;
+	transition:0.5s;}
+	
+	/*.container .card:hover .content{
+		transform:translateY(0px);
+		opacity:1;}*/
+	
+	.container_iv .card .content h2{
+		position:absolute;
+		top:-100px;
+		right:10px;
+	font-size:2.5em;
+		color:rgba(255,255,255,0.1);
+		pointer-events:none;}
+		
+		.container_iv .card .content h3{
+			font-size:1.8em;
+			color:rgba(0,0,0,0.7);
+			z-index:5;}
+			
+				.container_iv .card .content p{
+					font-size:1em;
+					color:rgba(0,0,0,1);
+					font-weight:300;}
+					
+						.container_iv .card .content a{
+							position:relative;
+							display:inline-block;
+							padding:8px 20px;
+							margin-top:15px;
+							background-attachment:#fff;
+							color:#000;
+							border-radius:20px;
+							text-decoration:none;
+							font-weight:500;
+							box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+							
+/*
+-----------------------------------------
+End Of 4orth Row Of CARDs!                         END;}
+-----------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------NAVBAR---------------------------*/
+
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style-type:none;
+	box-sizing:border-box;
+	z-index:1000;}
+	
+	
+#building{
+	width:100%;
+		justify-content:center;
+		align-items:center;
+	height:310vh;
+	position:relative;
+	background:rgba(0,0,0,0.5);}
+	nav{
+		position:fixed;
+		font-family:Arial Nova Light;
+		background:rgba(0,0,0,0.6);
+		box-shadow:inset 0px -1px 30px 0px rgba(0,0,0,1),0px 2px 10px 0px rgba(0,0,0,1);
+		height:80px;
+		width:100%;}
+		
+		label.logo{
+			width:34.8%;
+			color:#fff;
+			font-size:35px;
+			line-height:80px;
+			padding:0 100px;
+			font-weight:bold;
+			position:absolute;}
+			
+			nav ul{
+				float:right;
+				margin-right:20px;}
+				
+				nav ul li{
+					display:inline-block;
+					line-height:80px;
+					margin:0 5px;}
+					
+					nav ul li a{
+						color:#fff;
+						font-size:17px;
+						text-transform:uppercase;
+						padding:7px 13px;
+						border-radius:3px;}
+						a.active,a:hover{
+							background:#1b9bff;
+							transition:.5s;}
+							.checkbtn{
+								font-size:30px;
+								color:#fff;
+								float:right;
+								line-height:80px;
+								margin-right:40px;
+								cursor:pointer;
+								display:none;}
+								
+								#check{
+									display:none;}
+									
+									@media (max-width:952px){  						
+										label.logo{
+											font-size:30px;
+											padding-left:50px;}
+											nav ul li a{
+												font-size:16px;}}
+												
+												@media (max-width:952px){
+													.checkbtn{
+														display:block;}
+														
+														ul{
+															position:fixed;
+															width:100%;
+															height:100vh;
+															background:#036;
+															top:80px;
+															left:-100%;
+															text-align:center;
+															transition:all .5s;
+															z-index:10;}
+															
+															nav ul li{
+																display:block;
+																margin:50px 0;
+																line-height:30px;}
+																
+																nav ul li a{
+																	font-size:20px;}
+																	
+																	a:hover,a.active{
+																		background:none;
+																		color:#06F;}
+																		
+																		#check:checked~ul{
+																			left:0;}}
+																			
+																		
+												
